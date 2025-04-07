@@ -20,12 +20,18 @@ export default function Home() {
             Media design studente met een passie voor UX/UI en een groeiende liefde voor code. 
             Ik combineer creativiteit met techniek om gebruiksvriendelijke, visueel sterke interfaces te maken.
           </p>
-          <div className="mt-6 flex gap-4">
-            <button className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600">
+          <div className="mt-6 flex flex-col sm:flex-row gap-4">
+            <button
+              className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300"
+              aria-label="Bekijk mijn projecten"
+            >
               <span className="z-10 relative">Projecten</span>
               <span className="absolute inset-0 bg-purple-400 blur-md opacity-0 group-hover:opacity-60 transition duration-300"></span>
             </button>
-            <button className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-black text-white px-6 py-2 rounded-full hover:bg-gray-200">
+            <button
+              className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-black text-white px-6 py-2 rounded-full hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-300"
+              aria-label="Neem contact op"
+            >
               <span className="z-10 relative">Contact</span>
               <span className="absolute inset-0 bg-white blur-md opacity-0 group-hover:opacity-60 transition duration-300"></span>
             </button>
@@ -36,19 +42,20 @@ export default function Home() {
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.05} transitionSpeed={250}>
             <Image
               src="/profile.jpg"
-              alt="Mijn profielfoto"
+              alt="Portret van Rochelle, media design studente met donkere haren en paarse achtergrond"
               width={300}
               height={300}
               className="rounded-xl border-4 shadow-md"
               style={{ borderColor: '#FFBFF9' }}
+              priority
             />
           </Tilt>
         </div>
       </section>
 
       {/* Over Mij */}
-      <motion.section 
-        id="overmij" 
+      <motion.section
+        id="overmij"
         className="min-h-screen bg-[#F5EBF4] text-black py-20 px-6 font-['Vinila Test']"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -95,7 +102,7 @@ Student
               om gebruiksvriendelijke digitale ervaringen te maken.
             </p>
 
-            <button className="bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 font-extrabold">
+            <button className="bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 font-extrabold focus:outline-none focus:ring-2 focus:ring-purple-300">
               Over mij
             </button>
           </div>
@@ -104,7 +111,7 @@ Student
             <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} scale={1.05} transitionSpeed={250}>
               <img
                 src="/profile.jpg"
-                alt="Rochelle"
+                alt="Profielfoto van Rochelle met een glimlach en ronde hoeken"
                 className="rounded-xl border-4 shadow-xl w-full max-w-sm mx-auto"
                 style={{ borderColor: '#FFBFF9' }}
               />
@@ -138,22 +145,54 @@ Student
 
       {/* Contact */}
       <motion.section 
-        id="contact" 
-        className="min-h-screen bg-[#F5EBF4] text-black py-20 px-6 text-center font-['Vinila Test']"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-      >
-        <h2 className="text-2xl font-extrabold mb-6">Contact <span className="text-purple-600">Me</span></h2>
-        <form className="max-w-md mx-auto space-y-4">
-          <input type="text" placeholder="Naam" className="w-full p-3 border border-gray-300 rounded-md font-normal" />
-          <input type="email" placeholder="E-mail adres" className="w-full p-3 border border-gray-300 rounded-md font-normal" />
-          <input type="text" placeholder="Bedrijfsnaam (optioneel)" className="w-full p-3 border border-gray-300 rounded-md font-normal" />
-          <textarea placeholder="Bericht" rows="4" className="w-full p-3 border border-gray-300 rounded-md font-normal"></textarea>
-          <button type="submit" className="bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 font-extrabold">Verstuur</button>
-        </form>
-      </motion.section>
+  id="contact" 
+  className="bg-[#F5EBF4] text-black py-16 px-6 text-center font-['Vinila Test']"
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+>
+  <h2 className="text-2xl font-extrabold mb-6">Contact <span className="text-purple-600">Me</span></h2>
+  <form 
+    action="https://formspree.io/f/xeoapkky"
+    method="POST" 
+    className="max-w-md mx-auto space-y-4" 
+    aria-label="Contactformulier"
+  >
+    <input
+      type="text"
+      name="name"
+      placeholder="Naam"
+      className="w-full p-3 border border-gray-300 rounded-md font-normal"
+      aria-label="Naam"
+      required
+    />
+    <input
+      type="email"
+      name="email"
+      placeholder="E-mail adres"
+      className="w-full p-3 border border-gray-300 rounded-md font-normal"
+      aria-label="E-mail adres"
+      required
+    />
+    <textarea
+      name="message"
+      placeholder="Bericht"
+      rows="4"
+      className="w-full p-3 border border-gray-300 rounded-md font-normal"
+      aria-label="Bericht"
+      required
+    ></textarea>
+    <button
+      type="submit"
+      className="bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 font-extrabold focus:outline-none focus:ring-2 focus:ring-purple-300"
+      aria-label="Verstuur bericht"
+    >
+      Verstuur
+    </button>
+  </form>
+</motion.section>
+
 
       {/* Footer */}
       <motion.footer 
@@ -163,7 +202,9 @@ Student
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        2025 Rochelle M. All rights reserved
+        <p tabIndex="0" aria-label="Copyrightinformatie">
+          2025 Rochelle M. All rights reserved
+        </p>
       </motion.footer>
     </main>
   );
