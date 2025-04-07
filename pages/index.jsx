@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Header from '../components/Header';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
+
 
 export default function Home() {
   return (
@@ -21,21 +23,27 @@ export default function Home() {
             Ik combineer creativiteit met techniek om gebruiksvriendelijke, visueel sterke interfaces te maken.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row gap-4">
-            <button
-              className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300"
-              aria-label="Bekijk mijn projecten"
-            >
-              <span className="z-10 relative">Projecten</span>
-              <span className="absolute inset-0 bg-purple-400 blur-md opacity-0 group-hover:opacity-60 transition duration-300"></span>
-            </button>
-            <button
-              className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-black text-white px-6 py-2 rounded-full hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-300"
-              aria-label="Neem contact op"
-            >
-              <span className="z-10 relative">Contact</span>
-              <span className="absolute inset-0 bg-white blur-md opacity-0 group-hover:opacity-60 transition duration-300"></span>
-            </button>
-          </div>
+  <Link href="/portfolio" passHref legacyBehavior>
+    <a
+      className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-purple-500 text-white px-6 py-2 rounded-full hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-300"
+      aria-label="Bekijk mijn projecten"
+    >
+      <span className="z-10 relative">Projecten</span>
+      <span className="absolute inset-0 bg-purple-400 blur-md opacity-0 group-hover:opacity-60 transition duration-300"></span>
+    </a>
+  </Link>
+
+  <Link href="/contact" passHref legacyBehavior>
+    <a
+      className="relative overflow-hidden group min-w-[140px] text-center font-extrabold bg-black text-white px-6 py-2 rounded-full hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-300"
+      aria-label="Neem contact op"
+    >
+      <span className="z-10 relative">Contact</span>
+      <span className="absolute inset-0 bg-white blur-md opacity-0 group-hover:opacity-60 transition duration-300"></span>
+    </a>
+  </Link>
+</div>
+
         </div>
 
         <div className="mt-8 md:mt-0">
