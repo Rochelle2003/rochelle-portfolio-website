@@ -105,7 +105,7 @@ Student
             </div>
 
             <p className="mb-6 text-base text-gray-800 font-normal">
-              Hi! Ik ben Rochelle, een media design student met een passie voor UX/UI en een nieuwsgierigheid naar code. <br />
+              Hi! Ik ben Rochelle, een Media design student met een passie voor UX/UI en een nieuwsgierigheid naar code. <br />
               Op mijn portfolio site deel ik mijn schoolopdrachten en projecten waarin ik design en development combineer
               om gebruiksvriendelijke digitale ervaringen te maken.
             </p>
