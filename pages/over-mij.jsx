@@ -43,22 +43,37 @@ export default function OverMij() {
           </div>
         </div>
 
-        {/* Skills blok */}
-        <div className="mt-16">
-          <h2 className="text-2xl font-extrabold text-center mb-8 text-purple-600">Skills & Tools</h2>
-          <div className="flex flex-wrap gap-6 justify-center">
-            {[
-              'Figma', 'HTML', 'CSS', 'Tailwind', 'JavaScript', 'Next.js', 'UX Research', 'Accessibility', 'Prototyping'
-            ].map((skill, i) => (
-              <span
-                key={i}
-                className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold shadow"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
+     {/* Skills sectie */}
+<div className="mt-16">
+  <h2 className="text-2xl font-extrabold text-center mb-6 text-purple-600">Skills</h2>
+  <div className="flex flex-wrap gap-4 justify-center mb-12">
+    {[
+      'UX Research', 'Accessibility', 'Prototyping', 'UI Design', 'Responsiveness', 'Design Thinking'
+    ].map((skill, i) => (
+      <span
+        key={i}
+        className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold shadow"
+      >
+        {skill}
+      </span>
+    ))}
+  </div>
+
+  <h2 className="text-2xl font-extrabold text-center mb-6 text-purple-600">Tools</h2>
+  <div className="flex flex-wrap gap-4 justify-center">
+    {[
+      'Figma', 'HTML', 'CSS', 'Tailwind', 'JavaScript', 'Next.js'
+    ].map((tool, i) => (
+      <span
+        key={i}
+        className="bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold shadow"
+      >
+        {tool}
+      </span>
+    ))}
+  </div>
+</div>
+
 
         {/* Opleiding / ervaring */}
         <div className="mt-16 max-w-3xl mx-auto">
