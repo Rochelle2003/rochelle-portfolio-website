@@ -33,7 +33,7 @@ export default function OverMij() {
 
           <div className="flex-1 md:pl-12">
             <Image
-              src="/ik.png"
+              src="/ik.jpg"
               alt="Profielfoto van Rochelle"
               width={300}
               height={300}
