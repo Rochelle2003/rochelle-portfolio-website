@@ -45,6 +45,10 @@ Bezoek daarna: [http://localhost:3000](http://localhost:3000)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vercel](https://vercel.com/) voor hosting
 
+- ## 📸 Screenshot
+![portfolio-homepage] ![Schermafbeelding 2025-06-02 111338](https://github.com/user-attachments/assets/a96d93bd-29ba-40d1-8587-a3422e81c851)
+
+
 ## 📬 Contact
 
 Wil je samenwerken of feedback geven? Neem gerust contact op via mijn portfolio (zie contactsectie op de website).
