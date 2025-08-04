@@ -1,51 +1,162 @@
-# 🖤 Rochelle Portfolio Website
+# 🎨 Rochelle M - Portfolio Website
 
-Welkom bij mijn persoonlijke portfolio-website, gemaakt met **Next.js** en **Tailwind CSS**. Deze website is bedoeld als digitale etalage van mijn werk als mediadesignstudent.
+Een moderne, interactieve portfolio website voor Rochelle, een enthousiaste media design student met een passie voor UX/UI design en front-end development.
 
-## 🎨 Design & Keuzes
+## ✨ Features
 
-- **Donkere stijl** met paarse accenten – modern en persoonlijk
-- Gemaakt met **Next.js 13+** voor snelheid, SEO en uitbreidbaarheid
-- **Tailwind CSS** voor flexibele en snelle styling
-- Simpele structuur met ruimte voor toekomstige uitbreiding
+### 🎯 Moderne Design
+- **Gradient backgrounds** met dynamische kleuren
+- **Glass morphism effecten** voor een moderne look
+- **Responsive design** voor alle apparaten
+- **Custom fonts** (Vinila Test) voor unieke branding
+- **Smooth animaties** met Framer Motion
 
-## 🚧 Nog in ontwikkeling
+### 🚀 Performance & UX
+- **Fast loading** met geoptimaliseerde afbeeldingen
+- **SEO optimized** met meta tags en structured data
+- **Accessibility** met ARIA labels en focus states
+- **Mobile-first** responsive design
+- **Interactive elements** met hover effects
 
-Let op: deze website is nog niet volledig. Niet al mijn projecten staan al online — ik ben nog bezig met het verzamelen en toevoegen van mijn werk. In de toekomst komen er meer pagina’s en interactieve onderdelen bij.
+### 🎨 Animaties & Interacties
+- **Scroll-triggered animaties** voor betere engagement
+- **Mouse-following effects** op de homepage
+- **Hover animations** op alle interactieve elementen
+- **Loading states** met mooie spinners
+- **Page transitions** voor vloeiende navigatie
 
-## 📁 Projectstructuur
+## 🛠️ Technologieën
+
+- **Next.js 13** - React framework
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animatie library
+- **React Parallax Tilt** - 3D tilt effecten
+- **Formspree** - Contact formulier handling
+
+## 📁 Project Structuur
 
 ```
-components/      → Herbruikbare UI-componenten (zoals Header)
-pages/           → Pagina’s (Next.js routing)
-styles/          → Globale CSS (incl. Tailwind config)
-public/          → Afbeeldingen en statische assets
-.gitignore       → Bestanden die niet meegeüpload worden
+rochelle-complete/
+├── components/
+│   ├── Header.jsx          # Navigatie met glass effect
+│   └── LoadingSpinner.jsx  # Loading component
+├── pages/
+│   ├── _app.jsx           # App wrapper met SEO
+│   ├── index.jsx          # Homepage met animaties
+│   ├── over-mij.jsx       # Over mij pagina
+│   ├── portfolio.jsx      # Portfolio met projecten
+│   ├── contact.jsx        # Contact pagina
+│   └── 404.jsx           # Custom 404 pagina
+├── public/
+│   ├── *.jpg/png         # Afbeeldingen
+│   └── *.otf            # Custom fonts
+├── styles/
+│   └── globals.css      # Global styles & animaties
+└── tailwind.config.js   # Tailwind configuratie
 ```
 
-## 🚀 Installatie (voor ontwikkelaars)
+## 🎨 Design Systeem
 
+### Kleuren
+- **Primary**: Purple gradient (#8B5CF6)
+- **Secondary**: Pink gradient (#EC4899)
+- **Accent**: Cyan gradient (#06B6D4)
+- **Background**: Dark gradients met glass effects
+
+### Typografie
+- **Font**: Vinila Test (Regular & ExtraBold)
+- **Hierarchy**: Duidelijke tekst hiërarchie
+- **Responsive**: Schaalbaar voor alle schermen
+
+### Componenten
+- **Buttons**: Gradient buttons met hover effects
+- **Cards**: Glass effect cards met shadows
+- **Forms**: Styled inputs met focus states
+- **Navigation**: Fixed header met glass effect
+
+## 🚀 Getting Started
+
+### Installatie
 ```bash
-# 1. Repo clonen
-git clone https://github.com/Rochelle2003/rochelle-portfolio-website.git
-cd rochelle-portfolio-website
+# Clone de repository
+git clone [repository-url]
 
-# 2. Afhankelijkheden installeren
+# Installeer dependencies
 npm install
 
-# 3. Lokale development-server starten
+# Start development server
 npm run dev
 ```
 
-Bezoek daarna: [http://localhost:3000](http://localhost:3000)
+### Build voor productie
+```bash
+# Build de applicatie
+npm run build
 
-## 🧑‍💻 Gebruikte technologieën
+# Start productie server
+npm start
+```
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vercel](https://vercel.com/) voor hosting
+## 📱 Responsive Design
 
-## 📬 Contact
+De website is volledig responsive met breakpoints:
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px
+- **Desktop**: > 1024px
 
-Wil je samenwerken of feedback geven? Neem gerust contact op via mijn portfolio (zie contactsectie op de website).
+## 🎯 SEO & Performance
+
+### SEO Optimalisaties
+- Meta tags voor alle pagina's
+- Open Graph tags voor social media
+- Structured data voor zoekmachines
+- Sitemap en robots.txt ready
+
+### Performance
+- Geoptimaliseerde afbeeldingen met Next.js Image
+- Font preloading voor snelle loading
+- Lazy loading voor betere performance
+- Minified CSS en JS
+
+## 🔧 Customisatie
+
+### Kleuren aanpassen
+Bewerk `tailwind.config.js` voor nieuwe kleuren:
+```javascript
+colors: {
+  primary: { /* nieuwe kleuren */ },
+  secondary: { /* nieuwe kleuren */ }
+}
+```
+
+### Animaties aanpassen
+Bewerk `styles/globals.css` voor nieuwe animaties:
+```css
+@keyframes customAnimation {
+  /* nieuwe animatie */
+}
+```
+
+### Content updaten
+- **Homepage**: Bewerk `pages/index.jsx`
+- **Portfolio**: Bewerk projecten array in `pages/portfolio.jsx`
+- **Contact**: Update Formspree endpoint in `pages/contact.jsx`
+
+## 📞 Contact
+
+Voor vragen of samenwerking:
+- **Email**: Via contact formulier
+- **Portfolio**: Bekijk projecten op `/portfolio`
+- **Over mij**: Meer informatie op `/over-mij`
+
+## 🎨 Credits
+
+- **Design**: Rochelle M
+- **Development**: Met Next.js en Tailwind CSS
+- **Animations**: Framer Motion
+- **Fonts**: Vinila Test (custom font)
+
+---
+
+**Gemaakt met ❤️ voor moderne web development**
  
