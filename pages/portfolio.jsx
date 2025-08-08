@@ -142,6 +142,19 @@ export default function Portfolio() {
         { url: "https://www.figma.com/proto/9wGPhZ5oIb04V5UMSDeU1j/DESIGN-Dotsecure?node-id=0-1&t=LT1RVsLjmtf4D59e-1", label: "Bekijk prototype", type: "primary" },
         { url: "https://www.figma.com/design/9wGPhZ5oIb04V5UMSDeU1j/DESIGN-Dotsecure?node-id=0-1&t=LT1RVsLjmtf4D59e-1", label: "Bekijk design", type: "secondary" }
       ]
+    },
+    {
+      id: 8,
+      title: "CineVault - Film Website",
+      description: "Een moderne filmwebsite gebouwd met Next.js en Tailwind CSS. CineVault biedt een premium cinema experience met duizenden films, reviews, aanbevelingen en een watchlist functie. De website heeft een donker thema met oranje accenten en een gebruiksvriendelijke interface voor film liefhebbers.",
+      image: "/cinevault-screenshot.png",
+      color: "orange",
+      category: "Web Development",
+      tech: ["Next.js", "Tailwind CSS", "JavaScript", "API Integration"],
+      links: [
+        { url: "https://cinevaultt-mocha.vercel.app/", label: "Bekijk live site", type: "primary" },
+        { url: "https://github.com/Rochelle2003/cinevault", label: "Bekijk Git repo", type: "secondary" }
+      ]
     }
   ];
 
@@ -175,13 +188,20 @@ export default function Portfolio() {
         hover: 'hover:from-purple-500 hover:to-pink-500',
         glow: 'shadow-purple-400/50'
       },
-      cyan: {
-        border: 'border-cyan-400',
-        text: 'text-cyan-400',
-        bg: 'bg-gradient-to-r from-cyan-400 to-blue-400',
-        hover: 'hover:from-cyan-500 hover:to-blue-500',
-        glow: 'shadow-cyan-400/50'
-      }
+             cyan: {
+         border: 'border-cyan-400',
+         text: 'text-cyan-400',
+         bg: 'bg-gradient-to-r from-cyan-400 to-blue-400',
+         hover: 'hover:from-cyan-500 hover:to-blue-500',
+         glow: 'shadow-cyan-400/50'
+       },
+       orange: {
+         border: 'border-orange-400',
+         text: 'text-orange-400',
+         bg: 'bg-gradient-to-r from-orange-400 to-red-400',
+         hover: 'hover:from-orange-500 hover:to-red-500',
+         glow: 'shadow-orange-400/50'
+       }
     };
     return colors[color] || colors.purple;
   };
