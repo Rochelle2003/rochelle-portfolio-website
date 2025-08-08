@@ -104,6 +104,9 @@ De website is volledig responsive met breakpoints:
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
+## 📸 Screenshot
+![portfolio-homepage](https://github.com/user-attachments/assets/a96d93bd-29ba-40d1-8587-a3422e81c851)
+
 ## 🎯 SEO & Performance
 
 ### SEO Optimalisaties
