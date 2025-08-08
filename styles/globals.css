@@ -114,6 +114,23 @@ body {
   background: var(--primary-pink);
 }
 
+/* Animation Delays */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Line Clamp */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* Focus Styles */
 .focus-ring:focus {
   outline: 2px solid var(--primary-purple);
@@ -148,7 +165,7 @@ body {
 }
 
 .btn-secondary {
-  @apply bg-black text-white px-6 py-3 rounded-full font-extrabold transition-all duration-300;
+  @apply bg-black text-purple-600 px-6 py-3 rounded-full font-extrabold transition-all duration-300;
   border: 2px solid transparent;
   background: linear-gradient(white, white) padding-box,
               var(--gradient-primary) border-box;

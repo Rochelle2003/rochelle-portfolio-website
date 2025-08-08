@@ -98,7 +98,7 @@ export default function Home() {
 
             <Link href="/contact" passHref legacyBehavior>
               <a className="btn-secondary group relative overflow-hidden">
-                <span className="relative z-10">Neem Contact</span>
+                <span className="relative z-10">Neem contact op</span>
                 <motion.div
                   className="absolute inset-0 bg-gradient-to-r from-gray-800 to-gray-700"
                   initial={{ x: '-100%' }}

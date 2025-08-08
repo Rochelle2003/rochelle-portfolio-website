@@ -91,7 +91,7 @@ export default function OverMij() {
               </Link>
               <Link href="/contact" passHref legacyBehavior>
                 <a className="btn-secondary">
-                  Neem Contact
+                  Neem contact op
                 </a>
               </Link>
             </motion.div>
