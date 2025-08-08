@@ -133,13 +133,14 @@ export default function Portfolio() {
     {
       id: 7,
       title: "DotSecure: awareness-tool",
-      description: "In samenwerking met 2manydots ontwikkel ik de visuele stijl voor DotSecure: een interactieve tool die medewerkers alert houdt op digitale en fysieke risico's binnen kantooromgevingen. Het project is nog bezig op het moment dus nog niet af. Het design is speels, AI-achtig en sluit aan bij cybersecurity-awareness.",
+      description: "In samenwerking met 2manydots ontwikkelde ik de visuele stijl voor DotSecure: een interactieve tool die medewerkers alert houdt op digitale en fysieke risico's binnen kantooromgevingen. Het project is succesvol afgerond met een volledig interactief prototype. Het design is speels, AI-achtig en sluit perfect aan bij cybersecurity-awareness.",
       image: "/dotsecure.png",
       color: "cyan",
       category: "UX/UI Design",
       tech: ["Figma", "Prototyping", "User Research"],
       links: [
-        { url: "https://www.figma.com/design/A1ZoxBGk7hzOXOX98OyVxp/design-dotsecure?node-id=0-1&t=9bWyeA8pX30xfQpQ-1", label: "Bekijk Figma design", type: "primary" }
+        { url: "https://www.figma.com/proto/9wGPhZ5oIb04V5UMSDeU1j/DESIGN-Dotsecure?node-id=0-1&t=LT1RVsLjmtf4D59e-1", label: "Bekijk prototype", type: "primary" },
+        { url: "https://www.figma.com/design/9wGPhZ5oIb04V5UMSDeU1j/DESIGN-Dotsecure?node-id=0-1&t=LT1RVsLjmtf4D59e-1", label: "Bekijk design", type: "secondary" }
       ]
     }
   ];
@@ -264,7 +265,7 @@ export default function Portfolio() {
                         alt={`Screenshot van ${project.title}`}
                         width={400}
                         height={250}
-                        className="relative z-10 w-full h-48 object-cover rounded-2xl border-2 border-gray-700/50 group-hover:border-gray-600/50 transition-all duration-300"
+                        className="relative z-10 w-full h-48 object-contain rounded-2xl border-2 border-gray-700/50 group-hover:border-gray-600/50 transition-all duration-300 bg-gray-900/50"
                       />
                     </motion.div>
                     
@@ -276,9 +277,9 @@ export default function Portfolio() {
                         {project.title}
                       </motion.h2>
                       
-                      <p className="text-gray-300 text-sm leading-relaxed mb-6 line-clamp-3">
-                        {project.description}
-                      </p>
+                                             <p className="text-gray-300 text-sm leading-relaxed mb-6">
+                         {project.description}
+                       </p>
 
                       {/* Tech Stack */}
                       <div className="flex flex-wrap gap-2 mb-6">
