@@ -1,101 +1,25 @@
-# 🎨 Rochelle M - Portfolio Website
+# 🎨 Rochelle's Portfolio Website
 
-Een moderne, interactieve portfolio website voor Rochelle, een enthousiaste media design student met een passie voor UX/UI design en front-end development.
+Een moderne, interactieve portfolio website gebouwd met Next.js en Framer Motion. Deze website toont mijn creatieve werk, van web development tot UX/UI design en branding.
+
+![Portfolio Preview](https://github.com/user-attachments/assets/a96d93bd-29ba-40d1-8587-a3422e81c851)
 
 ## ✨ Features
 
-### 🎯 Moderne Design
-- **Gradient backgrounds** met dynamische kleuren
-- **Glass morphism effecten** voor een moderne look
-- **Responsive design** voor alle apparaten
-- **Custom fonts** (Vinila Test) voor unieke branding
-- **Smooth animaties** met Framer Motion
+- **Moderne Design** - Glass morphism effecten en gradient backgrounds
+- **Smooth Animaties** - Framer Motion animaties voor een vloeiende gebruikerservaring
+- **Responsive Design** - Volledig responsive voor alle apparaten
+- **Interactieve Elementen** - Hover effecten en 3D transformaties
+- **Portfolio Showcase** - Uitgebreide project showcase met links naar live sites
+- **Contact Formulier** - Werkend contact formulier voor professionele communicatie
 
-### 🚀 Performance & UX
-- **Fast loading** met geoptimaliseerde afbeeldingen
-- **SEO optimized** met meta tags en structured data
-- **Accessibility** met ARIA labels en focus states
-- **Mobile-first** responsive design
-- **Interactive elements** met hover effects
+## 🚀 Tech Stack
 
-### 🎨 Animaties & Interacties
-- **Scroll-triggered animaties** voor betere engagement
-- **Mouse-following effects** op de homepage
-- **Hover animations** op alle interactieve elementen
-- **Loading states** met mooie spinners
-- **Page transitions** voor vloeiende navigatie
-
-## 🛠️ Technologieën
-
-- **Next.js 13** - React framework
-- **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animatie library
-- **React Parallax Tilt** - 3D tilt effecten
-- **Formspree** - Contact formulier handling
-
-## 📁 Project Structuur
-
-```
-rochelle-complete/
-├── components/
-│   ├── Header.jsx          # Navigatie met glass effect
-│   └── LoadingSpinner.jsx  # Loading component
-├── pages/
-│   ├── _app.jsx           # App wrapper met SEO
-│   ├── index.jsx          # Homepage met animaties
-│   ├── over-mij.jsx       # Over mij pagina
-│   ├── portfolio.jsx      # Portfolio met projecten
-│   ├── contact.jsx        # Contact pagina
-│   └── 404.jsx           # Custom 404 pagina
-├── public/
-│   ├── *.jpg/png         # Afbeeldingen
-│   └── *.otf            # Custom fonts
-├── styles/
-│   └── globals.css      # Global styles & animaties
-└── tailwind.config.js   # Tailwind configuratie
-```
-
-## 🎨 Design Systeem
-
-### Kleuren
-- **Primary**: Purple gradient (#8B5CF6)
-- **Secondary**: Pink gradient (#EC4899)
-- **Accent**: Cyan gradient (#06B6D4)
-- **Background**: Dark gradients met glass effects
-
-### Typografie
-- **Font**: Vinila Test (Regular & ExtraBold)
-- **Hierarchy**: Duidelijke tekst hiërarchie
-- **Responsive**: Schaalbaar voor alle schermen
-
-### Componenten
-- **Buttons**: Gradient buttons met hover effects
-- **Cards**: Glass effect cards met shadows
-- **Forms**: Styled inputs met focus states
-- **Navigation**: Fixed header met glass effect
-
-## 🚀 Getting Started
-
-### Installatie
-```bash
-# Clone de repository
-git clone [repository-url]
-
-# Installeer dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-### Build voor productie
-```bash
-# Build de applicatie
-npm run build
-
-# Start productie server
-npm start
-```
+- **Framework**: Next.js 13.5.11
+- **Styling**: Tailwind CSS
+- **Animaties**: Framer Motion
+- **Deployment**: Vercel
+- **Font**: Vinila Test (Custom font)
 
 ## 📱 Responsive Design
 
@@ -104,62 +28,107 @@ De website is volledig responsive met breakpoints:
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
-## 📸 Screenshot
-![portfolio-homepage](https://github.com/user-attachments/assets/a96d93bd-29ba-40d1-8587-a3422e81c851)
+## 🎯 Projecten
 
-## 🎯 SEO & Performance
+### Web Development
+- **EK McQuiz** - McDonald's campagne quiz met JavaScript
+- **Carnaval Game** - Interactieve JavaScript game
+- **Eastereggs EnoRm** - Frontend project met verborgen features
 
-### SEO Optimalisaties
-- Meta tags voor alle pagina's
-- Open Graph tags voor social media
-- Structured data voor zoekmachines
-- Sitemap en robots.txt ready
+### Web Apps
+- **KNMI Weerapp** - Moderne weerapp met Next.js en API integratie
 
-### Performance
-- Geoptimaliseerde afbeeldingen met Next.js Image
-- Font preloading voor snelle loading
-- Lazy loading voor betere performance
-- Minified CSS en JS
+### UX/UI Design
+- **DotSecure** - Cybersecurity awareness tool (Figma prototype)
 
-## 🔧 Customisatie
+### Branding & Content
+- **Claudy Brandguide** - Complete merkidentiteit voor artiest
+- **Contentstrategie Claudy** - Social media en marketing strategie
 
-### Kleuren aanpassen
-Bewerk `tailwind.config.js` voor nieuwe kleuren:
-```javascript
-colors: {
-  primary: { /* nieuwe kleuren */ },
-  secondary: { /* nieuwe kleuren */ }
-}
+## 🛠️ Installation & Setup
+
+### Prerequisites
+- Node.js (versie 16 of hoger)
+- npm of yarn
+
+### Installatie
+
+1. **Clone de repository**
+```bash
+git clone https://github.com/Rochelle20/rochelle-portfolio.git
+cd rochelle-portfolio
 ```
 
-### Animaties aanpassen
-Bewerk `styles/globals.css` voor nieuwe animaties:
-```css
-@keyframes customAnimation {
-  /* nieuwe animatie */
-}
+2. **Installeer dependencies**
+```bash
+npm install
 ```
 
-### Content updaten
-- **Homepage**: Bewerk `pages/index.jsx`
-- **Portfolio**: Bewerk projecten array in `pages/portfolio.jsx`
-- **Contact**: Update Formspree endpoint in `pages/contact.jsx`
+3. **Start de development server**
+```bash
+npm run dev
+```
 
-## 📞 Contact
+4. **Open je browser**
+Ga naar [http://localhost:3000](http://localhost:3000)
 
-Voor vragen of samenwerking:
-- **Email**: Via contact formulier
-- **Portfolio**: Bekijk projecten op `/portfolio`
-- **Over mij**: Meer informatie op `/over-mij`
+### Build voor productie
 
-## 🎨 Credits
+```bash
+npm run build
+npm start
+```
 
-- **Design**: Rochelle M
-- **Development**: Met Next.js en Tailwind CSS
-- **Animations**: Framer Motion
-- **Fonts**: Vinila Test (custom font)
+## 📁 Project Structuur
+
+```
+rochelle-complete/
+├── pages/                 # Next.js pages
+│   ├── index.jsx         # Homepage
+│   ├── over-mij.jsx      # Over mij pagina
+│   ├── portfolio.jsx     # Portfolio pagina
+│   └── contact.jsx       # Contact pagina
+├── styles/
+│   └── globals.css       # Global styles
+├── public/               # Static assets
+│   ├── images/           # Project afbeeldingen
+│   └── fonts/            # Custom fonts
+└── components/           # React components
+```
+
+## 🎨 Design Features
+
+### Animaties
+- **Staggered animations** voor project cards
+- **3D hover effects** met rotateX transformaties
+- **Smooth transitions** voor alle interactieve elementen
+- **Background animations** met bewegende gekleurde cirkels
+
+### Visuele Effecten
+- **Glass morphism** op alle kaarten
+- **Gradient borders** en glow effecten
+- **Backdrop blur** voor moderne UI
+- **Custom color schemes** per project
+
+## 📬 Contact
+
+- **Email**: [jouw-email@example.com]
+- **LinkedIn**: [LinkedIn profiel]
+- **GitHub**: [GitHub profiel]
+
+## 🔗 Live Demo
+
+🌐 **Website**: [https://rochelle-portfolio.vercel.app](https://rochelle-portfolio.vercel.app)
+
+## 📄 License
+
+Dit project is open source en beschikbaar onder de [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Suggesties en verbeteringen zijn welkom! Voel je vrij om een issue te openen of een pull request te maken.
 
 ---
 
-**Gemaakt met ❤️ voor moderne web development**
+**Gemaakt met ❤️ door Rochelle**
  
