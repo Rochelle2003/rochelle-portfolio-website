@@ -2,7 +2,30 @@
 
 Een moderne, interactieve portfolio website gebouwd met Next.js en Framer Motion. Deze website toont mijn creatieve werk, van web development tot UX/UI design en branding.
 
-![Portfolio Preview](https://github.com/user-attachments/assets/a96d93bd-29ba-40d1-8587-a3422e81c851)
+## 📸 Screenshots
+
+### Homepage
+![Homepage](https://github.com/user-attachments/assets/a96d93bd-29ba-40d1-8587-a3422e81c851)
+
+**Features van de homepage:**
+- **Moderne dark theme** met zwarte achtergrond
+- **Gradient borders** rond de portret foto (pink naar purple)
+- **Glass morphism effecten** op navigatie en knoppen
+- **Responsive layout** met tekst links en foto rechts
+- **Interactieve knoppen** met gradient backgrounds
+- **Custom typografie** met Vinila Test font
+- **Smooth animaties** met Framer Motion
+- **Professional branding** met "Rochelle M" logo
+
+### Portfolio Pagina
+![Portfolio](https://via.placeholder.com/800x400/1f2937/ffffff?text=Portfolio+Page+Screenshot)
+
+**Portfolio features:**
+- **Project cards** met glass morphism effecten
+- **3D hover animaties** op alle kaarten
+- **Tech stack tags** voor elk project
+- **Directe links** naar live sites en prototypes
+- **Category badges** voor project organisatie
 
 ## ✨ Features
 
