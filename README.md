@@ -1,157 +1,116 @@
-# 🎨 Rochelle's Portfolio Website
 
-Een moderne, interactieve portfolio website gebouwd met Next.js en Framer Motion. Deze website toont mijn creatieve werk, van web development tot UX/UI design en branding.
+ 🌐 Rochelle M – Portfolio Website
 
-## 📸 Screenshots
+![Screenshot van de homepage](./screenshot-homepage.png)
 
-### Homepage
-![Homepage](https://github.com/user-attachments/assets/a96d93bd-29ba-40d1-8587-a3422e81c851)
+## Live demo
 
-**Features van de homepage:**
-- **Moderne dark theme** met zwarte achtergrond
-- **Gradient borders** rond de portret foto (pink naar purple)
-- **Glass morphism effecten** op navigatie en knoppen
-- **Responsive layout** met tekst links en foto rechts
-- **Interactieve knoppen** met gradient backgrounds
-- **Custom typografie** met Vinila Test font
-- **Smooth animaties** met Framer Motion
-- **Professional branding** met "Rochelle M" logo
-
-### Portfolio Pagina
-![Portfolio](https://via.placeholder.com/800x400/1f2937/ffffff?text=Portfolio+Page+Screenshot)
-
-**Portfolio features:**
-- **Project cards** met glass morphism effecten
-- **3D hover animaties** op alle kaarten
-- **Tech stack tags** voor elk project
-- **Directe links** naar live sites en prototypes
-- **Category badges** voor project organisatie
-
-## ✨ Features
-
-- **Moderne Design** - Glass morphism effecten en gradient backgrounds
-- **Smooth Animaties** - Framer Motion animaties voor een vloeiende gebruikerservaring
-- **Responsive Design** - Volledig responsive voor alle apparaten
-- **Interactieve Elementen** - Hover effecten en 3D transformaties
-- **Portfolio Showcase** - Uitgebreide project showcase met links naar live sites
-- **Contact Formulier** - Werkend contact formulier voor professionele communicatie
-
-## 🚀 Tech Stack
-
-- **Framework**: Next.js 13.5.11
-- **Styling**: Tailwind CSS
-- **Animaties**: Framer Motion
-- **Deployment**: Vercel
-- **Font**: Vinila Test (Custom font)
-
-## 📱 Responsive Design
-
-De website is volledig responsive met breakpoints:
-- **Mobile**: < 768px
-- **Tablet**: 768px - 1024px
-- **Desktop**: > 1024px
-
-## 🎯 Projecten
-
-### Web Development
-- **EK McQuiz** - McDonald's campagne quiz met JavaScript
-- **Carnaval Game** - Interactieve JavaScript game
-- **Eastereggs EnoRm** - Frontend project met verborgen features
-
-### Web Apps
-- **KNMI Weerapp** - Moderne weerapp met Next.js en API integratie
-
-### UX/UI Design
-- **DotSecure** - Cybersecurity awareness tool (Figma prototype)
-
-### Branding & Content
-- **Claudy Brandguide** - Complete merkidentiteit voor artiest
-- **Contentstrategie Claudy** - Social media en marketing strategie
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Node.js (versie 16 of hoger)
-- npm of yarn
-
-### Installatie
-
-1. **Clone de repository**
-```bash
-git clone https://github.com/Rochelle20/rochelle-portfolio.git
-cd rochelle-portfolio
-```
-
-2. **Installeer dependencies**
-```bash
-npm install
-```
-
-3. **Start de development server**
-```bash
-npm run dev
-```
-
-4. **Open je browser**
-Ga naar [http://localhost:3000](http://localhost:3000)
-
-### Build voor productie
-
-```bash
-npm run build
-npm start
-```
-
-## 📁 Project Structuur
-
-```
-rochelle-complete/
-├── pages/                 # Next.js pages
-│   ├── index.jsx         # Homepage
-│   ├── over-mij.jsx      # Over mij pagina
-│   ├── portfolio.jsx     # Portfolio pagina
-│   └── contact.jsx       # Contact pagina
-├── styles/
-│   └── globals.css       # Global styles
-├── public/               # Static assets
-│   ├── images/           # Project afbeeldingen
-│   └── fonts/            # Custom fonts
-└── components/           # React components
-```
-
-## 🎨 Design Features
-
-### Animaties
-- **Staggered animations** voor project cards
-- **3D hover effects** met rotateX transformaties
-- **Smooth transitions** voor alle interactieve elementen
-- **Background animations** met bewegende gekleurde cirkels
-
-### Visuele Effecten
-- **Glass morphism** op alle kaarten
-- **Gradient borders** en glow effecten
-- **Backdrop blur** voor moderne UI
-- **Custom color schemes** per project
-
-## 📬 Contact
-
-- **Email**: [jouw-email@example.com]
-- **LinkedIn**: [LinkedIn profiel]
-- **GitHub**: [GitHub profiel]
-
-## 🔗 Live Demo
-
-🌐 **Website**: [https://rochelle-portfolio.vercel.app](https://rochelle-portfolio.vercel.app)
-
-## 📄 License
-
-Dit project is open source en beschikbaar onder de [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Suggesties en verbeteringen zijn welkom! Voel je vrij om een issue te openen of een pull request te maken.
+Bekijk de live versie hier → [rochelle-portfolio-website.vercel.app](https://rochelle-portfolio-website.vercel.app/)
 
 ---
 
-**Gemaakt met ❤️ door Rochelle**
+ Pagina-overzicht
+
+Hero / Home
+
+* **Creative Media Design Student**
+* Intro (Nederlands): *“Media design studente met een passie voor UX/UI en een groeiende liefde voor code. Ik combineer creativiteit met techniek om gebruiksvriendelijke, visueel sterke interfaces te maken.”*
+* Actieknoppen: **Bekijk Projecten** / **Neem contact op**
+* Mijn portret met paars accent
+
+Over mij
+
+* Introductie:
+  *“Hi! Ik ben Rochelle, een enthousiaste media design student met een liefde voor design én development. Mijn kracht ligt in het maken van digitale ervaringen die niet alleen mooi zijn, maar ook intuïtief werken. Ik verdiep me graag in UX/UI design, prototyping in Figma en het bouwen van toegankelijke, moderne websites met Next.js en Tailwind CSS. Naast school werk ik graag aan persoonlijke projecten om mijn skills verder te ontwikkelen.”*
+* **Skills & Tools**:
+
+  * UI Design: Figma, Adobe XD
+  * Development: HTML, CSS, JavaScript, Next.js
+  * UX Research: User Testing, Prototyping
+  * Accessibility: WCAG Guidelines
+  * Responsive / Mobile-first Design
+  * Design Thinking: Problem-solving
+  
+
+Projecten
+
+Een overzicht van mijn creatieve werk, van web development tot branding en UX/UI design:
+
+| Projectnaam                   | Beschrijving                                                                                                                                                                                             | Technologieën / Tools                             | Links                                                                                                                |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **EK McQuiz**                 | McGoal EK-quiz: gebruikers beantwoorden vragen over eerdere toernooien en kunnen bij hoge scores gratis merch winnen. Volledig ontworpen in McDonald’s-stijl met visuele feedback bij juiste antwoorden. | JavaScript, HTML, CSS                             | [Live spelen](https://i523681.hera.fontysict.net) · [Figma design](https://www.figma.com)                            |
+| **Carnaval Game**             | Vrolijke Javascript-game in carnavalsstijl: klik zo veel mogelijk zwevende ballonnen stuk binnen de tijd. Inclusief live score-updates en achtergrondmuziek.                                             | JavaScript, Canvas API, HTML5                     | [Speel de game](https://i523681.hera.fontysict.net) · [Git repo](https://git.fhict.nl)                               |
+| **Eastereggs EnoRm**          | Speelse front-end opdracht voor EnoRm met verborgen grapjes (easter eggs) op de pagina om te ontdekken. Focus op de verborgen elementen.                                                                 | HTML, CSS, JavaScript                             | [Live site](https://i509114.hera.fontysict.net) · [Git repo](https://git.fhict.nl) · [Uitleg](https://git.fhict.nl)  |
+| **KNMI Weerapp**              | Moderne weersvoorspellingstool met regio-specifieke info en toegankelijke visuele UI. Inclusief animaties en heldere interface.                                                                          | Next.js, Tailwind CSS, API Integratie             | [Live site](https://knmiweerapp.vercel.app) · [Git repo](https://github.com) · [Figma design](https://www.figma.com) |
+| **Brandguide voor Claudy**    | Visuele merkidentiteit ontworpen voor artiest Claudy. Bevat kleurenpalet, typografie, logo’s en social media styling voor herkenbare branding.                                                           | Figma, Adobe Creative Suite, Brand Strategy       | [Brandguide (PDF)](https://i523681.hera.fontysict.net)                                                               |
+| **Contentstrategie Claudy**   | Strategische contentplanning voor Claudy’s muziek en imago op social media en andere kanalen. Inclusief concrete formats en richtlijnen.                                                                 | Content Planning, Social Media Marketing          | [Contentstrategie (PDF)](https://i523681.hera.fontysict.net)                                                         |
+| **DotSecure: awareness-tool** | Visual style & interactief prototype voor een tool die medewerkers alert houdt op digitale en fysieke risico’s. Speels, AI-achtig design passend bij cybersecurity-awareness.                            | Figma, Prototyping, User Research                 | [Prototype](https://www.figma.com) · [Design](https://www.figma.com)                                                 |
+| **CineVault – Film Website**  | Moderne filmwebsite met donker thema en oranje accenten. Gebouwd met Next.js en Tailwind. Bevat filmreviews, aanbevelingen en watchlist-functionaliteit.                                                 | Next.js, Tailwind CSS, JavaScript, API Integratie | [Live site](https://cinevaultt-mocha.vercel.app) · [Git repo](https://github.com)                                    |
+
+### Contact
+
+* Formulier met velden: **Naam**, **E-mail**, **Bericht**
+* Knop: **Verstuur Bericht**
+* Ondertekst: *“Je bericht wordt rechtstreeks doorgestuurd naar mijn inbox”*
+
+### Footer
+
+* Tekst: **© 2025 Rochelle M. All rights reserved**
+
+---
+
+## Functionaliteiten & Highlights
+
+* Moderne, donkere stijl met paarse en blauwe accenten
+* Heldere navigatie (Home, Projecten, Over mij, Contact)
+* Responsief ontwerp, mobiel-vriendelijk
+* Toegankelijkheidsbewust (WCAG-richtlijnen)
+* Gebouwd met:
+
+  * **Next.js**: performant en SEO-vriendelijk
+  * **Tailwind CSS**: utility-first styling
+* Interactieve projecten met live-versies, Figma-designs, Git-repo’s en PDF-downloads
+
+---
+
+Installatie & Lokale Setup
+
+Volg deze stappen om de site lokaal te draaien:
+
+```bash
+git clone https://github.com/Rochelle2003/rochelle-portfolio-website.git
+cd rochelle-portfolio-website
+npm install
+npm run dev
+```
+
+Open vervolgens [http://localhost:3000](http://localhost:3000) in je browser.
+
+---
+
+## Screenshots
+
+1. **Homepage / Hero-sectie**
+   ![Hero-sectie screenshot](./screenshot-homepage.png)
+
+2. **Projecten overzicht** *(optioneel)*
+   ![Projecten screenshot](./screenshot-projecten.png)
+
+3. **Over mij / Skills sectie** *(optioneel)*
+   ![Over mij screenshot](./screenshot-over-mij.png)
+
+---
+
+ Contact & Meer Informatie
+
+* **Gemaakt door**: Rochelle M
+* **Opleiding**: Creative Media Design
+* **Contact**: *\[mijn e-mailadres invullen]*
+* **Live portfolio**: [rochelle-portfolio-website.vercel.app](https://rochelle-portfolio-website.vercel.app)
+
+
+ ✨ Bedankt voor het bekijken van mijn project! Ik sta altijd open voor feedback, nieuwe uitdagingen of samenwerkingen — laat het me weten!
+
+
+
  
