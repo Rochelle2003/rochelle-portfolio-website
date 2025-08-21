@@ -105,6 +105,7 @@ De website is volledig responsive met de volgende breakpoints:
 
 ### Web Applications
 - **KNMI Weerapp** - Moderne weerapp met Next.js en API integratie
+- CineVault movie website
 
 ### UX/UI Design
 - **DotSecure** - Cybersecurity awareness tool (Figma prototype)
